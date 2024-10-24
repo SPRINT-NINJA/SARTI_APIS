@@ -93,4 +93,9 @@ public class User {
     public void setUpdatedValues() {
         this.updatedAt = Instant.now();
     }
+
+    public User(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
 }
